@@ -34,7 +34,7 @@ export default function useWallet() {
     account: address,
     active: isConnected,
     connector,
-    chainId: chainId ?? 59902,
+    chainId: chainId ?? 59902 ,
     chainDetails,
     signer: signer ?? undefined
   };
