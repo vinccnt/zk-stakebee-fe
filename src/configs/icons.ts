@@ -1,5 +1,5 @@
 import { METIS, METIS_SEPOLIA, ZK_SEPOLIA } from './chains';
-import MetisIcon from '@/assets/ethereum.svg.svg';
+import MetisIcon from '../assets/ethereum.svg';
 const ICONS = {
   [METIS]: MetisIcon,
   [METIS_SEPOLIA]: MetisIcon,
