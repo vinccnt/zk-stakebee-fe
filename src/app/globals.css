@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  font-family: 'heavitas';
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  background-color: #000000;
+}
+
+h2 {
+  font-family: 'helvetica';
+}
